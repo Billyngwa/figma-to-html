@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #301B52;
+}
+body section {
+  padding-top: 15%;
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+body section div.left {
+  margin-left: 20%;
+}
+body section div.left div.svg {
+  margin-left: 20px !important;
+  display: block;
+}
+body section div.left h1.heading {
+  font-family: roboto;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+body section div.left p.description {
+  font-family: roboto;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+}
+body section div.right {
+  background-color: #BDBDBD;
+  border-radius: 10px;
+}
+body section div.right h1.login {
+  font-family: roboto;
+  color: #301B52;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+body section div.right form {
+  padding: 20px;
+  border-radius: 10px;
+}
+body section div.right div.inputs > input {
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.56);
+  border-radius: 50px;
+  padding: 7px 10px;
+  margin: 10px 2px;
+}
+body section div.right div.forgot-password a {
+  font-family: roboto;
+  text-decoration: none;
+  color: #301B52;
+}
+body section div.right div.login-signup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+body section div.right div.login-signup button.login {
+  background-color: #301B52;
+  font-family: roboto;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  outline: none;
+  border-radius: 50px;
+  padding: 7px 30px;
+  border: none;
+}
+body section div.right div.login-signup button.signup {
+  background-color: #DB0916;
+  font-family: roboto;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  padding: 7px 30px;
+}/*# sourceMappingURL=style.css.map */
